@@ -1,4 +1,5 @@
 module.exports = function(grunt) {
+    require('load-grunt-tasks')(grunt); //加载所有的任务
     require('time-grunt')(grunt); //Grunt处理任务进度条提示
 
     grunt.initConfig({
